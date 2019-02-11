@@ -10,38 +10,38 @@ import video_2 from './assets/09-30-18-1.mp4';
 import img_2 from './assets/09-30-18-1.mp4.png';
 import video_3 from './assets/10-24-18-0.mp4';
 import img_3 from './assets/10-24-18-0.mp4.png';
-import video_4 from './assets/10-24-18-1.mp4';
-import img_4 from './assets/10-24-18-1.mp4.png';
-import video_5 from './assets/11-02-18.mp4';
-import img_5 from './assets/11-02-18.mp4.png';
-import video_6 from './assets/12-03-18-0.mp4';
-import img_6 from './assets/12-03-18-0.mp4.png';
-import video_7 from './assets/12-03-18-1.mp4';
-import img_7 from './assets/12-03-18-1.mp4.png';
-import video_8 from './assets/549786-0.mp4';
-import img_8 from './assets/549786-0.mp4.png';
-import video_9 from './assets/549786-1.mp4';
-import img_9 from './assets/549786-1.mp4.png';
-import video_10 from './assets/785344.mp4';
-import img_10 from './assets/785344.mp4.png';
-import video_11 from './assets/814617.mp4';
-import img_11 from './assets/814617.mp4.png';
-import video_12 from './assets/829094.mp4';
-import img_12 from './assets/829094.mp4.png';
-import video_13 from './assets/859924.mp4';
-import img_13 from './assets/859924.mp4.png';
-import video_14 from './assets/887746.mp4';
-import img_14 from './assets/887746.mp4.png';
-import video_15 from './assets/893660-0.mp4';
-import img_15 from './assets/893660-0.mp4.png';
-import video_16 from './assets/893660-1.mp4';
-import img_16 from './assets/893660-1.mp4.png';
-import video_17 from './assets/893660-2.mp4';
-import img_17 from './assets/893660-2.mp4.png';
-import video_18 from './assets/893660-3.mp4';
-import img_18 from './assets/893660-3.mp4.png';
-import video_19 from './assets/893660-4.mp4';
-import img_19 from './assets/893660-4.mp4.png';
+// import video_4 from './assets/10-24-18-1.mp4';
+// import img_4 from './assets/10-24-18-1.mp4.png';
+// import video_5 from './assets/11-02-18.mp4';
+// import img_5 from './assets/11-02-18.mp4.png';
+// import video_6 from './assets/12-03-18-0.mp4';
+// import img_6 from './assets/12-03-18-0.mp4.png';
+// import video_7 from './assets/12-03-18-1.mp4';
+// import img_7 from './assets/12-03-18-1.mp4.png';
+// import video_8 from './assets/549786-0.mp4';
+// import img_8 from './assets/549786-0.mp4.png';
+// import video_9 from './assets/549786-1.mp4';
+// import img_9 from './assets/549786-1.mp4.png';
+// import video_10 from './assets/785344.mp4';
+// import img_10 from './assets/785344.mp4.png';
+// import video_11 from './assets/814617.mp4';
+// import img_11 from './assets/814617.mp4.png';
+// import video_12 from './assets/829094.mp4';
+// import img_12 from './assets/829094.mp4.png';
+// import video_13 from './assets/859924.mp4';
+// import img_13 from './assets/859924.mp4.png';
+// import video_14 from './assets/887746.mp4';
+// import img_14 from './assets/887746.mp4.png';
+// import video_15 from './assets/893660-0.mp4';
+// import img_15 from './assets/893660-0.mp4.png';
+// import video_16 from './assets/893660-1.mp4';
+// import img_16 from './assets/893660-1.mp4.png';
+// import video_17 from './assets/893660-2.mp4';
+// import img_17 from './assets/893660-2.mp4.png';
+// import video_18 from './assets/893660-3.mp4';
+// import img_18 from './assets/893660-3.mp4.png';
+// import video_19 from './assets/893660-4.mp4';
+// import img_19 from './assets/893660-4.mp4.png';
 
 export default class V1 extends Component {
   constructor(props) {
@@ -121,7 +121,7 @@ export default class V1 extends Component {
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'video', video: video_3 }) }>
                     <img src={ img_3 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'video', video: video_4 }) }>
+                {/* <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'video', video: video_4 }) }>
                     <img src={ img_4 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'video', video: video_5 }) }>
@@ -168,7 +168,7 @@ export default class V1 extends Component {
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'video', video: video_19 }) }>
                     <img src={ img_19 } className={ this.state.picSizeMode } />
-                </div>
+                </div> */}
             </div>
         </div>
     );
